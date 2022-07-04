@@ -6,6 +6,8 @@
 }
 #about{
     width:100%;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
 }
 #about-us{
     display: flex;
@@ -14,10 +16,12 @@
     border-bottom: 2px solid grey;
     margin: auto;
 }
-.primary-heading{
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    margin-left: 1vw;
+.about-us-main-heading{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5vh;
+    margin-left: 2vw;
 }
 
 @media only screen and (max-width: 736px)
@@ -25,6 +29,9 @@
     #about-us{
         width: 100%;
         height: auto;
+    }
+    .about-us-main-heading{
+        font-size: 1.8rem;
     }
     .about-us-para-content{
         margin-top: 0vh;

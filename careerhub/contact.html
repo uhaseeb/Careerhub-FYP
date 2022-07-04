@@ -19,144 +19,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
 
-    <style>
-        *{
-            color: black;
-            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-        }
-        body{
-            background-color: #e8c99b;
-        background-image: linear-gradient(315deg, #e8c99b 0%, #e8bc85 74%);
-        }
-        /* navbar */
-        
-        .logo-img{
-            height: 10vh;
-            width: 10vw;
-        }
-        .nav-item{
-            margin-left: 2vw;
-            margin-top: 1vh;
-            font-size: 1.5rem;
-        }
-        .nav-link{
-            color: azure;
-        }
-        .nav-link:hover{
-            color: #C8B218;
-        }
-        .active{
-            color: blue;
-        
-        }
-        .nav-btn{
-            margin-left: 1vw;
-            margin-right: 1vw;
-        }
-        /* banner image */
-        .banner-img{
-            height: 87vh;
-            width: 100%;
-            opacity: 0.8;
-        }
-        /* contact */
-        .contact{
-            height: 80vh;
-            width: 90%;
-            display: flex;
-            margin: auto;
-        }
-        .contact-box{
-            height: 80vh;
-            width: 50%;
-            
-        }
-        .form-details{
-            background-color: rgb(143, 137, 137);
-            height: 70vh;
-            width: 35%;
-            margin-left: 10vw;
-        }
-        .details{
-            margin-top: 5vh;
-        }
-        .social{
-            margin-left: 2vw;
-            margin-top: 3vw;
-        }
-        .social-icons{
-            display: flex;
-            margin-top: 5vh;
-            margin-left: 12vw;
-        }
-        .icon{
-            height: 8vh;
-            width:4vw;
-            margin-left: 0.5vw;
-            margin-right: 0.5vw;
-        }
-        .icon:hover{
-            opacity: 0.5;
-        }
-        .icon-img{
-            height:7vh;
-            width: 3vw;
-        }
-        .imp-details{
-            height: 40vh;
-            width: 98%;
-            display: flex;
-            margin-top: 5vh;
-        }
-        .c-icon{
-            height: 8vh;
-            width:4vw;
-            margin-left: 2vw;
-            margin-top: 2vh;
-        }
-        .form-head{
-            text-align: center;
-        }
-         /* footer */
-         .foot{
-            height: 4vh;
-            width: 100%;
-            background-color: darkslategray;
-            color: black;
-            margin-top: 5vh;
-
-        }
-        /*form */
-        .textfield{
-            margin-left: 4vw;
-            margin-top: 2vh;
-            width: 73%;
-        }
-        .btn-form{
-            margin-left: 08vw;
-            margin-top: 3vh;
-            width: 25%;
-        }
-        /* hadings */
-        .main-heading{
-            margin-top: 5vh;
-            margin-bottom: 3vh;
-            margin-left: 2vw;
-        }
-        .contact-h2{
-            margin-left: 1vw; 
-            margin-top: 2vh;
-        }
-         /* general */
-         
-        .primary{
-            font-family: 'Merriweather', serif;
-        }
-        .secondary{
-            font-family: 'Oxygen', serif;
-        }
-    </style>
+        <link rel="stylesheet" href="css/contact-us.css">
 </head>
 <body>
      <!-- NAVBAR START -->
@@ -191,6 +54,7 @@
     <!--MAIN HEADING END -->
     <!--CONTACT START-->
     <section class="contact">
+        <div class="contact-main">
         <div class="contact-box contact-details">
             <h2 class="secondary contact-h2">Get in Touch With Us</h2>
             <div class="imp-details">
@@ -230,6 +94,7 @@
                 <div class="mb-3">
                 <input type="submit" class="btn btn-success btn-form">
                 </div>
+        </div>
         </div>
     </section>
      <!--CONTACT END-->
